@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
  <html lang="en">
  <head>
      <meta charset="UTF-8">
@@ -27,13 +27,27 @@
     alert("😂😂😂😂😂...dw its jus for fun.")
 </script>
 <script>
-var p=prompt("enter person1 name:");
-var l=prompt("enter person2 name:");
-alert("please eneter the valid names.")
-var x=Math.floor(Math.random()*101);
+    var p;
+    var l;
+    p=prompt("enter person1 name:");
+    l=prompt("enter person2 name:");
+    if(p===""){
+    alert("please enter the name."); 
+    p=prompt("enter person1 name:");
+    }
+    if(l===""){
+        alert("please enter the name of person2.");
+        l=prompt("enter person2 name:");
+    }
+    
+       var x=Math.floor(Math.random()*101);
+     console.log(alert("percentage of love between "+p+" and "+l+" is "+x+"."));
+
+    
+    
+ 
 
 
-console.log(alert("percentage of love between "+p+" and "+l+" is "+x+"."));
 </script>
 
 <script>
