@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+   
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#sym{
+    size: 2cm;
+}
+#note{
+    margin: auto auto 0 auto;
+    
+}
+#btn{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
